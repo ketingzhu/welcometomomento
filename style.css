@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:100,300,400,500,600,700,800,900&display=swap');
+
+/* Importing component files */
+@import url("components/navigation.css");
+@import url("components/intro.css");
+@import url("components/about.css");
+@import url("components/buttons.css");
+@import url("components/carousel.css");
+@import url("components/forms.css");
+@import url("components/responsive.css");
+
+.playfair-display-about {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500; /* You can adjust this value to your desired weight (400 to 900) */
+  font-style: normal;
+}
+
+/* Additional general rules, if any */

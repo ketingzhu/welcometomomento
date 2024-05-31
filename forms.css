@@ -1,0 +1,25 @@
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1.5; /* Reduce flex to make it less wide */
+    margin: 30px 20px;
+    font-family: 'Playfair Display', serif;
+}
+
+.opening-time,
+.contact-adress {
+    flex: 2; /* Increase flex to make it wider */
+    margin: 30px 10px;
+    font-size: 1.2em;
+    font-family: 'Playfair Display', serif;
+}
+
+.form-group p {
+    font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+    display: block;
+    font-family: 'Playfair Display', serif;
+}

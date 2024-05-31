@@ -1,0 +1,26 @@
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center horizontally */
+    background-color: #f3f3f3c0;
+    padding: 50px 30px;
+    text-align: center; 
+}
+
+.about-section h3 {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    text-transform: uppercase;
+}
+
+.about-section p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8em;
+    text-transform: none; /* Ensure text is in its normal case */
+}

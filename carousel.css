@@ -1,0 +1,9 @@
+.carousel-inner {
+    height: 900px;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}

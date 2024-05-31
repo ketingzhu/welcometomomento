@@ -1,0 +1,29 @@
+ .section-intro {
+    height: 800px;
+    background-image: url('../../Images/serge-esteve-klXhDG8Roj4-unsplash.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-intro h1 {
+    text-align: center;
+    color: #ffffff;
+    font-size: 4em;
+    font-weight: 700;
+}
+
+.section-intro header {
+    display: flex;
+    flex: 5;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+.link-to-book-wrapper {
+    flex: 1;
+}
